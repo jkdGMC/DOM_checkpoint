@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>DOM Checkpoint</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="shopping_cart_container">
+        <div class="title_cart">
+          <h1><i class="fa-solid fa-cart-shopping"></i> Mon panier</h1>
+        </div>
+        <div class="product_list">
+          <table>
+            <tr>
+              <th>Produit</th>
+              <th>
+                <i class="fa-solid fa-hand-holding-dollar"></i> Prix unitaire (FCFA)
+              </th>
+              <th>Quantité(s)</th>
+            </tr>
+
+            <tr id="1">
+              <td>Iphone 13 pro max - 64gb</td>
+              <td class="price_product">900000</td>
+              <td class="qut">1</td>
+              <td class="icon_plus" id="plus">
+                <i class="fa-solid fa-plus" ></i>
+              </td>
+              <td class="icon_less" id="minus">
+                <i class="fa-solid fa-minus" ></i>
+              </td>
+              <td class="icon_delete" id="del">
+                <i class="fa-solid fa-xmark" ></i>
+              </td>
+              <td class="icon_heart" id="heart">
+                <i class="fa-solid fa-heart" ></i>
+              </td>
+            </tr>
+
+            <tr id="2">
+              <td>Iphone 13 pro max - 64gb</td>
+              <td class="price_product">900000</td>
+              <td class="qut">1</td>
+              <td class="icon_plus" id="plus">
+                <i class="fa-solid fa-plus" ></i>
+              </td>
+              <td class="icon_less" id="minus">
+                <i class="fa-solid fa-minus" ></i>
+              </td>
+              <td class="icon_delete" id="del">
+                <i class="fa-solid fa-xmark" ></i>
+              </td>
+              <td class="icon_heart" id="heart">
+                <i class="fa-solid fa-heart" ></i>
+              </td>
+            </tr>
+
+            <tr id="3">
+              <td>Iphone 13 pro max - 64gb</td>
+              <td class="price_product">900000</td>
+              <td class="qut">1</td>
+              <td class="icon_plus" id="plus">
+                <i class="fa-solid fa-plus"></i>
+              </td>
+              <td class="icon_less" id="minus">
+                <i class="fa-solid fa-minus" ></i>
+              </td>
+              <td class="icon_delete" id="del">
+                <i class="fa-solid fa-xmark" ></i>
+              </td>
+              <td class="icon_heart" id="heart">
+                <i class="fa-solid fa-heart" ></i>
+              </td>
+            </tr>
+
+            <tr id="4">
+              <td>Iphone 13 pro max - 64gb</td>
+              <td class="price_product">500000</td>
+              <td class="qut">5</td>
+              <td class="icon_plus" id="plus">
+                <i class="fa-solid fa-plus" ></i>
+              </td>
+              <td class="icon_less" id="minus">
+                <i class="fa-solid fa-minus" ></i>
+              </td>
+              <td class="icon_delete" id="del">
+                <i class="fa-solid fa-xmark" ></i>
+              </td>
+              <td class="icon_heart" id="heart">
+                <i class="fa-solid fa-heart" ></i>
+              </td>
+            </tr>
+
+            <tr id="5">
+              <td>Iphone 13 pro max - 64gb</td>
+              <td class="price_product">9000</td>
+              <td class="qut">1</td>
+              <td class="icon_plus" id="plus">
+                <i class="fa-solid fa-plus" ></i>
+              </td>
+              <td class="icon_less" id="minus">
+                <i class="fa-solid fa-minus" ></i>
+              </td>
+              <td class="icon_delete" id="del">
+                <i class="fa-solid fa-xmark" ></i>
+              </td>
+              <td class="icon_heart" id="heart">
+                <i class="fa-solid fa-heart"></i>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="footer_cart">
+          <div class="title_footer">
+            <h3>TOTAL</h3>
+          </div>
+          <div class="total_price">
+            <h3 class="price_number"></h3>FCFA
+          </div>
+        </div>
+      </div>
+      <div class="input_container">
+        <input type="button" value="VALIDER">
+        <input type="button" value="ANNULER">
+      </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
